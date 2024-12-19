@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/general.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/3f64d70d36.js" crossorigin="anonymous"></script>
+    <title>Contact</title>
+    <link rel="icon" type="image/x-icon" href="/images/fitness_favi.avif">
+</head>
+<body>
+    <div class="main-content">
+    <div class="toolbar">
+        <button id="drpdownbtn"><i class="fa-solid fa-bars"></i></button>
+        <div id="dropdown-content">
+            <a href="/html/Title Page.html"><p>Home</p></a>
+            <a href="/html/About.html"><p>About</p></a>
+            <a href="/html/Services.html"><p>Services</p></a>
+            <a href="/html/Shop.html"><p>Shop</p></a>
+            <a href="/html/FAQs.html"><p>FAQs</p></a>
+            <a href="/html/contact.html"><p>Contact</p></a>
+        </div>
+        <div class="title">
+            <h1>Contact Me</h1>
+        </div>
+    </div>
+
+    <div class="form-container">
+        <h1>Contact Us</h1>
+        
+        <form action="https://formspree.io/f/xyzyaqlw" method="POST">
+            <!-- Name -->
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            </div>
+            
+            <!-- Email -->
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            </div>
+            
+            <!-- Phone (Optional) -->
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number (optional)">
+            </div>
+            
+            <!-- Message -->
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your message here..." required></textarea>
+            </div>
+            
+            <!-- Submit Button -->
+            <div class="form-group">
+                <button type="submit" class="btn-submit">Send Message</button>
+            </div>
+        </form>
+    </div>
+        
+       
+
+    <footer class="footer">
+        <p>Find Me Here</p>
+        <div id="footer_icons">
+            <a href="https://www.linkedin.com/in/kai-mighty-35901612b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/KJMighty" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="mailto:s4217377@lsbu.ac.uk"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    </footer>
+
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/3f64d70d36.js" crossorigin="anonymous"></script>
+<script src="/site.js"></script>
+</html>
